@@ -1,3 +1,3 @@
-# Iranian Validator for Shaba(IBAN) Code
+# Iranian Validator for Sheba(IBAN) Code
 
 
