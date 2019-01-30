@@ -16,8 +16,8 @@ object ShebaUtil {
         val n = x.substring(0, 2)
         val m = x.substring(2, 4)
         val o = x.substring(4)
-        val d1 = n.charAt(0).toInt - 65 + 10
-        val d2 = n.charAt(1).toInt - 65 + 10
+        val d1 = n.charAt(0) - 65 + 10
+        val d2 = n.charAt(1) - 65 + 10
         val newStr = s"$o$d1$d2$m"
         iso7064Mod97_10(newStr) == 1
     }
